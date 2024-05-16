@@ -1,0 +1,28 @@
+:root {
+  --x2nd-text-color: rgba(182, 182, 182, 1);
+  --text-color: rgba(0, 0, 0, 1);
+  --grey-blue-50: rgba(77, 94, 128, 1);
+  --white: rgba(255, 255, 255, 1);
+  --primary-color: rgba(108, 93, 211, 1);
+  --green-5: rgba(41, 204, 57, 0.05);
+  --green: rgba(41, 204, 57, 1);
+  --pink-5: rgba(230, 46, 123, 0.05);
+  --pink: rgba(230, 46, 123, 1);
+  --xm-1: rgba(54, 54, 54, 1);
+  --trng: rgba(255, 255, 255, 1);
+  --tm-6: rgba(221, 204, 255, 1);
+  --blue: rgba(51, 97, 255, 1);
+  --grey-blue-97: rgba(245, 246, 247, 1);
+  --bold-10-font-family: "Roboto", Helvetica;
+  --bold-10-font-weight: 700;
+  --bold-10-font-size: 10px;
+  --bold-10-letter-spacing: 0px;
+  --bold-10-line-height: 20px;
+  --bold-10-font-style: normal;
+  --black-8-font-family: "Roboto", Helvetica;
+  --black-8-font-weight: 900;
+  --black-8-font-size: 8px;
+  --black-8-letter-spacing: 0px;
+  --black-8-line-height: 20px;
+  --black-8-font-style: normal;
+}

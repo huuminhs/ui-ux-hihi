@@ -1,0 +1,1751 @@
+.KPI-page {
+  background-color: #f9f8f8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.KPI-page .div {
+  background-color: #f9f8f8;
+  overflow: hidden;
+  width: 1440px;
+  height: 951px;
+  position: relative;
+}
+
+.KPI-page .text-wrapper {
+  position: absolute;
+  top: 110px;
+  left: 280px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #6c5dd3;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.KPI-page .overlap {
+  position: absolute;
+  width: 164px;
+  height: 307px;
+  top: 221px;
+  left: 284px;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.KPI-page .dashboard-overview {
+  height: 224px;
+  top: 30px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.KPI-page .completed-tasks {
+  position: absolute;
+  top: 87px;
+  left: 18px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #e391ea;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.KPI-page .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 124px;
+  left: 18px;
+}
+
+.KPI-page .element {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.KPI-page .tasks {
+  position: relative;
+  width: fit-content;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #848484;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.KPI-page .element-this-month {
+  position: absolute;
+  top: 193px;
+  left: 18px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.KPI-page .span {
+  font-weight: 500;
+  color: #6c5dd3;
+}
+
+.KPI-page .text-wrapper-2 {
+  font-weight: 500;
+  color: #000000;
+}
+
+.KPI-page .text-wrapper-3 {
+  color: #848484;
+}
+
+.KPI-page .group {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 20px;
+  left: 18px;
+  background-color: #e391ea;
+  border-radius: 8px;
+}
+
+.KPI-page .UI-icon-multiselect {
+  position: absolute;
+  width: 25px;
+  height: 24px;
+  top: 12px;
+  left: 13px;
+}
+
+.KPI-page .overlap-group {
+  position: absolute;
+  width: 164px;
+  height: 309px;
+  top: 580px;
+  left: 284px;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.KPI-page .dashboard-overview-2 {
+  width: 163px;
+  height: 235px;
+  top: 33px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.KPI-page .inprogress-tasks {
+  position: absolute;
+  top: 87px;
+  left: 18px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #ff9f38;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.KPI-page .UI-icon-briefcase-wrapper {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 20px;
+  left: 18px;
+  background-color: #ff9f38;
+  border-radius: 8px;
+}
+
+.KPI-page .UI-icon-briefcase {
+  position: absolute;
+  width: 29px;
+  height: 30px;
+  top: 11px;
+  left: 10px;
+}
+
+.KPI-page .overlap-2 {
+  position: absolute;
+  width: 126px;
+  height: 44px;
+  top: 105px;
+  left: 1279px;
+  border-radius: 14px;
+}
+
+.KPI-page .calendar {
+  position: absolute;
+  width: 28px;
+  height: 26px;
+  top: 9px;
+  left: 91px;
+}
+
+.KPI-page .new-project {
+  position: absolute;
+  width: 126px;
+  height: 44px;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  border-radius: 14px;
+}
+
+.KPI-page .frame-2 {
+  display: flex;
+  width: 90px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 12px;
+  left: 18px;
+}
+
+.KPI-page .plus-circle {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.KPI-page .div-wrapper {
+  position: relative;
+  width: 65px;
+  height: 18px;
+  margin-right: -2px;
+}
+
+.KPI-page .text-wrapper-4 {
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 15.1px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KPI-page .month-progress {
+  position: absolute;
+  width: 495px;
+  height: 300px;
+  top: 582px;
+  left: 479px;
+}
+
+.KPI-page .overlap-3 {
+  position: relative;
+  width: 498px;
+  height: 300px;
+}
+
+.KPI-page .task-progress {
+  position: absolute;
+  width: 495px;
+  height: 300px;
+  top: 0;
+  left: 0;
+}
+
+.KPI-page .overlap-group-2 {
+  position: relative;
+  height: 307px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.KPI-page .weekly-progress {
+  position: absolute;
+  width: 173px;
+  top: 15px;
+  left: 26px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: var(--primary-color);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KPI-page .component {
+  position: absolute;
+  width: 166px;
+  height: 16px;
+  top: 21px;
+  left: 219px;
+}
+
+.KPI-page .december {
+  position: absolute;
+  width: 110px;
+  top: -1px;
+  left: 22px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KPI-page .chevron {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 0;
+  left: 138px;
+}
+
+.KPI-page .img {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 0;
+  left: 0;
+}
+
+.KPI-page .rectangle {
+  position: absolute;
+  width: 10px;
+  height: 11px;
+  top: 44px;
+  left: 421px;
+  background-color: #6f65e8;
+}
+
+.KPI-page .KPI-university {
+  position: absolute;
+  width: 49px;
+  top: 43px;
+  left: 434px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.KPI-page .group-2 {
+  position: absolute;
+  width: 498px;
+  height: 222px;
+  top: 70px;
+  left: 0;
+}
+
+.KPI-page .overlap-4 {
+  position: absolute;
+  width: 474px;
+  height: 208px;
+  top: 14px;
+  left: 0;
+}
+
+.KPI-page .overlap-5 {
+  position: absolute;
+  width: 474px;
+  height: 199px;
+  top: 0;
+  left: 0;
+}
+
+.KPI-page .new-project-2 {
+  position: absolute;
+  width: 474px;
+  height: 196px;
+  top: 0;
+  left: 0;
+}
+
+.KPI-page .grid-line {
+  position: absolute;
+  width: 410px;
+  height: 1px;
+  top: 195px;
+  left: 49px;
+  object-fit: cover;
+}
+
+.KPI-page .text-wrapper-5 {
+  width: 6px;
+  top: 190px;
+  left: 37px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: right;
+  line-height: 15px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.KPI-page .grid-line-2 {
+  top: 154px;
+  left: 49px;
+  position: absolute;
+  width: 410px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.KPI-page .text-wrapper-6 {
+  width: 23px;
+  top: 149px;
+  left: 20px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: right;
+  line-height: 15px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.KPI-page .grid-line-3 {
+  top: 112px;
+  left: 49px;
+  position: absolute;
+  width: 410px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.KPI-page .text-wrapper-7 {
+  width: 18px;
+  top: 109px;
+  left: 25px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: right;
+  line-height: 15px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.KPI-page .grid-line-4 {
+  top: 73px;
+  left: 49px;
+  position: absolute;
+  width: 410px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.KPI-page .text-wrapper-8 {
+  width: 23px;
+  top: 67px;
+  left: 20px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: right;
+  line-height: 15px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.KPI-page .grid-line-5 {
+  top: 32px;
+  left: 49px;
+  position: absolute;
+  width: 410px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.KPI-page .text-wrapper-9 {
+  width: 18px;
+  top: 26px;
+  left: 25px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: right;
+  line-height: 15px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.KPI-page .text-wrapper-10 {
+  position: absolute;
+  width: 26px;
+  top: 199px;
+  left: 86px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.KPI-page .text-wrapper-11 {
+  width: 24px;
+  top: 199px;
+  left: 152px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.KPI-page .text-wrapper-12 {
+  width: 27px;
+  top: 199px;
+  left: 209px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.KPI-page .text-wrapper-13 {
+  width: 25px;
+  top: 199px;
+  left: 267px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.KPI-page .text-wrapper-14 {
+  width: 25px;
+  top: 199px;
+  left: 323px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.KPI-page .text-wrapper-15 {
+  position: absolute;
+  width: 30px;
+  top: 199px;
+  left: 382px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.KPI-page .grid-line-6 {
+  top: 5px;
+  left: 49px;
+  position: absolute;
+  width: 410px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.KPI-page .text-wrapper-16 {
+  width: 22px;
+  top: 0;
+  left: 20px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: right;
+  line-height: 15px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.KPI-page .overlap-wrapper {
+  position: absolute;
+  width: 495px;
+  height: 300px;
+  top: 221px;
+  left: 479px;
+}
+
+.KPI-page .overlap-6 {
+  position: relative;
+  width: 554px;
+  height: 300px;
+}
+
+.KPI-page .rectangle-2 {
+  position: absolute;
+  width: 10px;
+  height: 11px;
+  top: 44px;
+  left: 421px;
+  background-color: #e2e0fa;
+}
+
+.KPI-page .KPI-company {
+  position: absolute;
+  width: 51px;
+  top: 43px;
+  left: 434px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.KPI-page .overlap-group-wrapper {
+  position: absolute;
+  width: 543px;
+  height: 251px;
+  top: 49px;
+  left: 11px;
+}
+
+.KPI-page .overlap-7 {
+  position: relative;
+  width: 519px;
+  height: 251px;
+  background-image: url(./img/new-project-1-1.png);
+  background-size: 100% 100%;
+}
+
+.KPI-page .text-wrapper-17 {
+  width: 26px;
+  top: 233px;
+  left: 75px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.KPI-page .text-wrapper-18 {
+  width: 24px;
+  top: 234px;
+  left: 141px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.KPI-page .text-wrapper-19 {
+  width: 27px;
+  top: 234px;
+  left: 198px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.KPI-page .text-wrapper-20 {
+  width: 25px;
+  top: 234px;
+  left: 256px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.KPI-page .text-wrapper-21 {
+  width: 25px;
+  top: 233px;
+  left: 312px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.KPI-page .text-wrapper-22 {
+  position: absolute;
+  width: 30px;
+  top: 234px;
+  left: 371px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.KPI-page .grid-line-7 {
+  top: 230px;
+  left: 38px;
+  position: absolute;
+  width: 410px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.KPI-page .text-wrapper-23 {
+  width: 6px;
+  top: 225px;
+  left: 26px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: right;
+  line-height: 15px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.KPI-page .grid-line-8 {
+  top: 189px;
+  left: 38px;
+  position: absolute;
+  width: 410px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.KPI-page .text-wrapper-24 {
+  width: 23px;
+  top: 184px;
+  left: 9px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: right;
+  line-height: 15px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.KPI-page .grid-line-9 {
+  top: 147px;
+  left: 38px;
+  position: absolute;
+  width: 410px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.KPI-page .text-wrapper-25 {
+  width: 18px;
+  top: 143px;
+  left: 14px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: right;
+  line-height: 15px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.KPI-page .grid-line-10 {
+  top: 107px;
+  left: 38px;
+  position: absolute;
+  width: 410px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.KPI-page .text-wrapper-26 {
+  width: 23px;
+  top: 102px;
+  left: 9px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: right;
+  line-height: 15px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.KPI-page .grid-line-11 {
+  top: 66px;
+  left: 38px;
+  position: absolute;
+  width: 410px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.KPI-page .text-wrapper-27 {
+  width: 18px;
+  top: 61px;
+  left: 14px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: right;
+  line-height: 15px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.KPI-page .grid-line-12 {
+  top: 26px;
+  left: 38px;
+  position: absolute;
+  width: 410px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.KPI-page .text-wrapper-28 {
+  width: 22px;
+  top: 21px;
+  left: 9px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #c0bebe;
+  font-size: 10px;
+  text-align: right;
+  line-height: 15px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.KPI-page .group-3 {
+  position: absolute;
+  width: 441px;
+  height: 307px;
+  top: 220px;
+  left: 1015px;
+}
+
+.KPI-page .overlap-8 {
+  position: relative;
+  width: 405px;
+  height: 307px;
+  border-radius: 5px;
+}
+
+.KPI-page .TODO {
+  position: absolute;
+  width: 96px;
+  height: 23px;
+  top: 15px;
+  left: 42px;
+}
+
+.KPI-page .text-wrapper-29 {
+  position: absolute;
+  width: 52px;
+  top: 0;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18.8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KPI-page .text-wrapper-30 {
+  position: absolute;
+  width: 30px;
+  top: 2px;
+  left: 62px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: var(--x2nd-text-color);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KPI-page .rectangle-3 {
+  position: absolute;
+  width: 4px;
+  height: 51px;
+  top: 53px;
+  left: 0;
+  background-color: #6c5dd3;
+}
+
+.KPI-page .text-wrapper-31 {
+  position: absolute;
+  width: 18px;
+  top: 69px;
+  left: 42px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KPI-page .text-wrapper-32 {
+  position: absolute;
+  width: 123px;
+  top: 69px;
+  left: 127px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KPI-page .rectangle-4 {
+  position: absolute;
+  width: 4px;
+  height: 50px;
+  top: 105px;
+  left: 0;
+  background-color: #6c5dd3;
+}
+
+.KPI-page .text-wrapper-33 {
+  width: 18px;
+  top: 120px;
+  left: 42px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 15px;
+  line-height: normal;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.KPI-page .text-wrapper-34 {
+  position: absolute;
+  width: 132px;
+  top: 120px;
+  left: 127px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KPI-page .rectangle-5 {
+  position: absolute;
+  width: 4px;
+  height: 51px;
+  top: 155px;
+  left: 0;
+  background-color: #6c5dd3;
+}
+
+.KPI-page .text-wrapper-35 {
+  width: 18px;
+  top: 172px;
+  left: 42px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 15px;
+  line-height: normal;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.KPI-page .text-wrapper-36 {
+  position: absolute;
+  width: 132px;
+  top: 172px;
+  left: 127px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KPI-page .rectangle-6 {
+  position: absolute;
+  width: 4px;
+  height: 50px;
+  top: 206px;
+  left: 0;
+  background-color: #6c5dd3;
+}
+
+.KPI-page .text-wrapper-37 {
+  width: 18px;
+  top: 223px;
+  left: 42px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 15px;
+  line-height: normal;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.KPI-page .text-wrapper-38 {
+  position: absolute;
+  width: 123px;
+  top: 223px;
+  left: 127px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KPI-page .rectangle-7 {
+  position: absolute;
+  width: 4px;
+  height: 50px;
+  top: 257px;
+  left: 0;
+  background-color: #6c5dd3;
+}
+
+.KPI-page .text-wrapper-39 {
+  width: 78px;
+  top: 274px;
+  left: 127px;
+  font-weight: 400;
+  color: var(--x2nd-text-color);
+  font-size: 15px;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KPI-page .rectangle-8 {
+  top: 53px;
+  position: absolute;
+  width: 400px;
+  height: 1px;
+  left: 5px;
+  background-color: #efefef;
+}
+
+.KPI-page .rectangle-9 {
+  top: 104px;
+  position: absolute;
+  width: 400px;
+  height: 1px;
+  left: 5px;
+  background-color: #efefef;
+}
+
+.KPI-page .rectangle-10 {
+  top: 154px;
+  position: absolute;
+  width: 400px;
+  height: 1px;
+  left: 5px;
+  background-color: #efefef;
+}
+
+.KPI-page .rectangle-11 {
+  top: 205px;
+  position: absolute;
+  width: 400px;
+  height: 1px;
+  left: 5px;
+  background-color: #efefef;
+}
+
+.KPI-page .rectangle-12 {
+  top: 255px;
+  position: absolute;
+  width: 400px;
+  height: 1px;
+  left: 5px;
+  background-color: #efefef;
+}
+
+.KPI-page .check-circle {
+  position: absolute;
+  width: 26px;
+  height: 25px;
+  top: 66px;
+  left: 77px;
+}
+
+.KPI-page .check-circle-2 {
+  top: 117px;
+  position: absolute;
+  width: 26px;
+  height: 25px;
+  left: 77px;
+}
+
+.KPI-page .check-circle-3 {
+  top: 169px;
+  position: absolute;
+  width: 26px;
+  height: 25px;
+  left: 77px;
+}
+
+.KPI-page .check-circle-4 {
+  top: 220px;
+  position: absolute;
+  width: 26px;
+  height: 25px;
+  left: 77px;
+}
+
+.KPI-page .choose-project-table {
+  display: flex;
+  width: 60px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 63px;
+  left: 307px;
+}
+
+.KPI-page .frame-wrapper {
+  position: relative;
+  width: 56px;
+  height: 32px;
+}
+
+.KPI-page .frame-3 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 7px 12px;
+  position: relative;
+  background-color: #f14a5b;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.KPI-page .text-wrapper-40 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.KPI-page .choose-project-table-2 {
+  width: 55px;
+  top: 117px;
+  display: flex;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 307px;
+}
+
+.KPI-page .group-4 {
+  margin-right: -96.55px;
+  position: relative;
+  width: 1px;
+  height: 1px;
+}
+
+.KPI-page .frame-4 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 7px 12px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #5ead56;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.KPI-page .choose-project-table-3 {
+  width: 84px;
+  top: 164px;
+  display: flex;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 307px;
+}
+
+.KPI-page .group-5 {
+  margin-right: -67.76px;
+  position: relative;
+  width: 1px;
+  height: 1px;
+}
+
+.KPI-page .frame-5 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 7px 12px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ff9f38;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.KPI-page .choose-project-table-4 {
+  width: 84px;
+  top: 215px;
+  display: flex;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 307px;
+}
+
+.KPI-page .rectangle-13 {
+  position: absolute;
+  width: 405px;
+  height: 307px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #efefef;
+}
+
+.KPI-page .choose-project-table-5 {
+  width: 55px;
+  top: 215px;
+  display: flex;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 307px;
+}
+
+.KPI-page .low-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 7px 12px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-left: -0.28px;
+  margin-right: -0.28px;
+  background-color: #f14a5b;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.KPI-page .choose-project-table-6 {
+  width: 55px;
+  top: 66px;
+  display: flex;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 307px;
+}
+
+.KPI-page .group-6 {
+  position: absolute;
+  width: 441px;
+  height: 307px;
+  top: 582px;
+  left: 1020px;
+}
+
+.KPI-page .sidebar {
+  position: fixed;
+  width: 250px;
+  height: 880px;
+  top: 72px;
+  left: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-color: #eaddff;
+}
+
+.KPI-page .dashboard {
+  position: absolute;
+  width: 218px;
+  height: 41px;
+  top: 24px;
+  left: 31px;
+}
+
+.KPI-page .group-7 {
+  height: 41px;
+}
+
+.KPI-page .overlap-group-3 {
+  position: relative;
+  width: 219px;
+  height: 41px;
+}
+
+.KPI-page .dashboard-2 {
+  position: absolute;
+  width: 219px;
+  height: 41px;
+  top: 0;
+  left: 0;
+}
+
+.KPI-page .text-wrapper-41 {
+  position: absolute;
+  width: 99px;
+  top: 10px;
+  left: 34px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: var(--x2nd-text-color);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KPI-page .img-2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 8px;
+  left: 0;
+}
+
+.KPI-page .rectangle-14 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 3px;
+  left: 3px;
+  background-color: var(--x2nd-text-color);
+  border-radius: 3px;
+}
+
+.KPI-page .rectangle-15 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 13px;
+  left: 3px;
+  background-color: var(--x2nd-text-color);
+  border-radius: 3px;
+}
+
+.KPI-page .rectangle-16 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 3px;
+  left: 13px;
+  background-color: var(--x2nd-text-color);
+  border-radius: 3px;
+}
+
+.KPI-page .rectangle-17 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 13px;
+  left: 13px;
+  background-color: var(--x2nd-text-color);
+  border-radius: 3px;
+}
+
+.KPI-page .rectangle-18 {
+  position: absolute;
+  width: 3px;
+  height: 41px;
+  top: 0;
+  left: 215px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.KPI-page .project {
+  position: absolute;
+  width: 220px;
+  height: 41px;
+  top: 80px;
+  left: 31px;
+}
+
+.KPI-page .text-wrapper-42 {
+  position: absolute;
+  width: 87px;
+  top: 10px;
+  left: 34px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: var(--x2nd-text-color);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KPI-page .kpi {
+  position: absolute;
+  width: 220px;
+  height: 41px;
+  top: 136px;
+  left: 31px;
+}
+
+.KPI-page .text-wrapper-43 {
+  position: absolute;
+  width: 81px;
+  top: 10px;
+  left: 34px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: var(--primary-color);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KPI-page .rectangle-19 {
+  position: absolute;
+  width: 3px;
+  height: 41px;
+  top: 0;
+  left: 215px;
+  background-color: #6c5dd3;
+  border-radius: 2px;
+}
+
+.KPI-page .rectangle-20 {
+  position: absolute;
+  width: 3px;
+  height: 41px;
+  top: 258px;
+  left: 246px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.KPI-page .top-navigation {
+  position: fixed;
+  width: 1440px;
+  height: 72px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #eadeff;
+}
+
+.KPI-page .group-8 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 11px;
+  left: 1175px;
+  background-image: url(./img/portrait-smiling-businessman-dressed-suit-2.png);
+  background-size: 100% 100%;
+}
+
+.KPI-page .searching-box {
+  position: absolute;
+  width: 532px;
+  height: 54px;
+  top: 8px;
+  left: 427px;
+}
+
+.KPI-page .overlap-9 {
+  position: relative;
+  width: 534px;
+  height: 54px;
+}
+
+.KPI-page .search {
+  position: absolute;
+  width: 97px;
+  height: 19px;
+  top: 18px;
+  left: 30px;
+  border: none;
+  background: none;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: var(--x2nd-text-color);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  padding-left: 0;
+}
+
+.KPI-page .group-9 {
+  position: absolute;
+  width: 534px;
+  height: 54px;
+  top: 0;
+  left: 0;
+}
+
+.KPI-page .overlap-group-4 {
+  position: relative;
+  width: 532px;
+  height: 54px;
+  background-color: #f7f8f9;
+  border-radius: 10px;
+}
+
+.KPI-page .label {
+  top: 18px;
+  left: 20px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: var(--x2nd-text-color);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KPI-page .searching-icon {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 17px;
+  left: 495px;
+}
+
+.KPI-page .logo {
+  position: absolute;
+  width: 176px;
+  height: 42px;
+  top: 14px;
+  left: 34px;
+}
+
+.KPI-page .group-10 {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  top: 0;
+  left: 0;
+}
+
+.KPI-page .overlap-group-5 {
+  position: relative;
+  height: 42px;
+  border-radius: 12.54px;
+}
+
+.KPI-page .rectangle-21 {
+  position: absolute;
+  width: 29px;
+  height: 35px;
+  top: 0;
+  left: 1px;
+}
+
+.KPI-page .rectangle-22 {
+  position: absolute;
+  width: 29px;
+  height: 35px;
+  top: 7px;
+  left: 13px;
+}
+
+.KPI-page .vector {
+  position: absolute;
+  width: 37px;
+  height: 5px;
+  top: 19px;
+  left: 3px;
+}
+
+.KPI-page .rectangle-23 {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  top: 0;
+  left: 0;
+  border-radius: 12.54px;
+  border: 5.01px solid;
+  border-color: var(--primary-color);
+}
+
+.KPI-page .text-wrapper-44 {
+  position: absolute;
+  top: 3px;
+  left: 52px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 600;
+  color: var(--text-color);
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.KPI-page .noti-icon {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  top: 20px;
+  left: 1106px;
+}
+
+.KPI-page .personal-setting {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  top: 14px;
+  left: 1232px;
+  border-radius: 8px;
+}
+
+.KPI-page .status-option {
+  position: relative;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 2px solid;
+  border-color: #6c5dd3;
+}
+
+.KPI-page .text-wrapper-45 {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  top: 12px;
+  left: 13px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #6c5dd3;
+  font-size: 16px;
+  letter-spacing: -0.38px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.KPI-page .vector-2 {
+  position: absolute;
+  width: 12px;
+  height: 7px;
+  top: 19px;
+  left: 159px;
+}

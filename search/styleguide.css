@@ -1,0 +1,30 @@
+:root {
+  --text-color: rgba(0, 0, 0, 1);
+  --x2nd-text-color: rgba(182, 182, 182, 1);
+  --secondary-500: rgba(20, 21, 34, 1);
+  --secondary-400: rgba(84, 87, 122, 1);
+  --primary-500: rgba(84, 111, 255, 1);
+  --primary-color: rgba(108, 93, 211, 1);
+  --primary-0: rgba(255, 255, 255, 1);
+  --trng: rgba(255, 255, 255, 1);
+  --xm-1: rgba(54, 54, 54, 1);
+  --tm-6: rgba(221, 204, 255, 1);
+  --semibold-type-16-font-family: "Plus Jakarta Sans", Helvetica;
+  --semibold-type-16-font-weight: 600;
+  --semibold-type-16-font-size: 16px;
+  --semibold-type-16-letter-spacing: -0.32px;
+  --semibold-type-16-line-height: 150%;
+  --semibold-type-16-font-style: normal;
+  --medium-type-12-font-family: "Plus Jakarta Sans", Helvetica;
+  --medium-type-12-font-weight: 500;
+  --medium-type-12-font-size: 12px;
+  --medium-type-12-letter-spacing: -0.24px;
+  --medium-type-12-line-height: normal;
+  --medium-type-12-font-style: normal;
+  --medium-type-16-font-family: "Plus Jakarta Sans", Helvetica;
+  --medium-type-16-font-weight: 500;
+  --medium-type-16-font-size: 16px;
+  --medium-type-16-letter-spacing: -0.32px;
+  --medium-type-16-line-height: 150%;
+  --medium-type-16-font-style: normal;
+}
