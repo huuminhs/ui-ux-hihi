@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Calendar Month</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300;1,500;1,700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+		<script src="https://cdn.tailwindcss.com"></script>
+	</head>
+	<body>
+		<div class="bg-[#F9F8F8] flex p-[4.4rem_0.9rem_0_0] w-[90rem] box-sizing-border">
+			<div class="relative flex flex-row box-sizing-border">
+				<div class="border-r-[0.1rem_solid_#EADEFF] bg-[#FFFFFF] m-[0_0.9rem_0_0] flex flex-col items-end p-[1.5rem_0_36.3rem_0] w-[15.6rem] box-sizing-border">
+					<div class="m-[0_0_0.9rem_0] flex flex-row justify-between w-[13.4rem] box-sizing-border">
+						<div class="m-[0.6rem_0_0.6rem_0] flex flex-row box-sizing-border">
+							<div class="m-[0.1rem_0.8rem_0.1rem_0] flex flex-col items-center w-[1.1rem] h-[fit-content] box-sizing-border">
+								<div class="m-[0_0_0.1rem_0] flex flex-row w-[1.1rem] box-sizing-border">
+									<div class="rounded-[0.2rem] bg-[var(--nd-text-color,#B6B6B6)] m-[0_0.1rem_0_0] w-[0.5rem] h-[0.5rem]">
+									</div>
+									<div class="rounded-[0.2rem] bg-[var(--nd-text-color,#B6B6B6)] w-[0.5rem] h-[0.5rem]">
+									</div>
+								</div>
+								<div class="flex flex-row w-[1.1rem] box-sizing-border">
+									<div class="rounded-[0.2rem] bg-[var(--nd-text-color,#B6B6B6)] m-[0_0.1rem_0_0] w-[0.5rem] h-[0.5rem]">
+									</div>
+									<div class="rounded-[0.2rem] bg-[var(--nd-text-color,#B6B6B6)] w-[0.5rem] h-[0.5rem]">
+									</div>
+								</div>
+							</div>
+							<span class="break-words font-['Roboto'] font-normal text-[1.1rem] text-[var(--nd-text-color,#B6B6B6)]">
+							Dashboard
+							</span>
+						</div>
+						<div class="rounded-[0.1rem] bg-[#FFFFFF] w-[0.2rem] h-[2.6rem]">
+						</div>
+					</div>
+					<div class="m-[0_0_0.9rem_0] flex flex-row justify-between w-[13.6rem] box-sizing-border">
+						<div class="m-[0.6rem_0_0.6rem_0] flex flex-row box-sizing-border">
+							<div class="m-[0.1rem_0.9rem_0.1rem_0] flex w-[1.2rem] h-[1.1rem] box-sizing-border">
+								<img class="w-[1.2rem] h-[1.1rem]" src="../assets/vectors/union_45_x1.svg" />
+							</div>
+							<span class="break-words font-['Roboto'] font-normal text-[1.1rem] text-[var(--nd-text-color,#B6B6B6)]">
+							Calendar
+							</span>
+						</div>
+						<div class="rounded-[0.1rem] bg-[#FFFFFF] w-[0.2rem] h-[2.6rem]">
+						</div>
+					</div>
+					<div class="m-[0_0_5.1rem_0] flex flex-row justify-between w-[13.6rem] box-sizing-border">
+						<div class="m-[0.5rem_0_0.6rem_0] flex flex-row box-sizing-border">
+							<img class="m-[0_0.6rem_0_0] w-[1.5rem] h-[1.5rem]" src="../assets/vectors/ui_iconlistfilled_18_x1.svg" />
+							<div class="m-[0.1rem_0_0.1rem_0] inline-block break-words font-['Roboto'] font-normal text-[1.1rem] text-[var(--nd-text-color,#B6B6B6)]">
+							KPI
+							</div>
+						</div>
+						<div class="rounded-[0.1rem] bg-[#FFFFFF] w-[0.2rem] h-[2.6rem]">
+						</div>
+					</div>
+					<div class="rounded-[0.1rem] bg-[#FFFFFF] w-[0.2rem] h-[2.6rem]">
+					</div>
+				</div>
+				<div class="m-[1.3rem_1.1rem_1rem_0] flex flex-col items-center box-sizing-border">
+					<div class="m-[0_0.4rem_0.3rem_1rem] flex flex-row justify-between w-[53.3rem] box-sizing-border">
+						<div class="m-[1.3rem_1rem_0_0] inline-block w-[44.4rem] break-words font-['Roboto'] font-semibold text-[1.8rem] text-[#6C5DD3]">
+						Calendar
+						</div>
+						<div class="rounded-[0.9rem] bg-[#6C5DD3] relative m-[0_0_0.6rem_0] flex flex-row p-[0.8rem_1.1rem_0.7rem_1.1rem] box-sizing-border">
+							<img class="m-[0_0.4rem_0_0] w-[1.3rem] h-[1.3rem]" src="../assets/vectors/plus_circle_17_x1.svg" />
+							<div class="m-[0.1rem_0_0.1rem_0] flex box-sizing-border">
+								<span class="break-words font-['Roboto'] font-medium text-[0.9rem] text-[#FFFFFF]">
+								Add Task
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="shadow-[0.3rem_0.3rem_0.6rem_0rem_rgba(0,0,0,0.1)] rounded-[0.5rem] bg-[#FFFFFF] relative m-[0_0_0.6rem_0] flex flex-row justify-between p-[1.6rem_1.8rem_1.6rem_1.9rem] w-[54.7rem] box-sizing-border">
+						<div class="m-[0_0_0.1rem_0] flex flex-row box-sizing-border">
+							<span class="m-[0_0.8rem_0_0] break-words font-['Roboto'] font-medium text-[1.3rem] text-[#000000]">
+							December 2022
+							</span>
+							<div class="m-[0.1rem_0_0.2rem_0] flex flex-row justify-between w-[3.1rem] h-[fit-content] box-sizing-border">
+								<div class="m-[0_0_0rem_0] flex w-[0.6rem] h-[1.1rem] box-sizing-border">
+									<img class="w-[0.6rem] h-[1.1rem]" src="../assets/vectors/vector_155_x1.svg" />
+								</div>
+								<div class="m-[0rem_0_0_0] flex w-[0.6rem] h-[1.1rem] box-sizing-border">
+									<img class="w-[0.6rem] h-[1.1rem]" src="../assets/vectors/vector_269_x1.svg" />
+								</div>
+							</div>
+						</div>
+						<div class="m-[0.1rem_0_0_0] flex flex-row justify-between w-[9.3rem] h-[fit-content] box-sizing-border">
+							<div class="flex box-sizing-border">
+								<span class="break-words font-['Roboto'] font-medium text-[1.3rem] text-[#B6B6B6]">
+								Week
+								</span>
+							</div>
+							<div class="flex box-sizing-border">
+								<span class="break-words font-['Roboto'] font-medium text-[1.3rem] text-[#6C5DD3]">
+								Month
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="rounded-[0.5rem] relative m-[0_0_0_0.1rem] flex p-[0_0_0.4rem_0] box-sizing-border">
+						<div class="shadow-[0.3rem_0.3rem_0.6rem_0rem_rgba(0,0,0,0.1)] rounded-[0.5rem] bg-[#FFFFFF] relative flex flex-col p-[1.5rem_0_3.8rem_0] box-sizing-border">
+							<div class="m-[0_1.8rem_1.8rem_2.5rem] flex flex-row justify-between w-[50.3rem] box-sizing-border">
+								<span class="m-[0_0.6rem_0_0] w-[7.2rem] break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								Sunday
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								Monday
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								Tuesday
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								Wednesday
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								Thursday
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								Firday
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								Saturday
+								</span>
+							</div>
+							<div class="bg-[#DDDDDD] m-[0_0_0.1rem_0] w-[54.6rem] h-[0.1rem]">
+							</div>
+							<div class="relative m-[0_3.3rem_6.2rem_3.6rem] flex w-[47.6rem] box-sizing-border">
+								<div class="relative flex flex-row justify-between w-[47.6rem] h-[fit-content] box-sizing-border">
+									<span class="m-[0_0.6rem_0_0] w-[7.2rem] break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+									01
+									</span>
+									<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+									01
+									</span>
+									<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+									01
+									</span>
+									<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+									01
+									</span>
+									<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+									01
+									</span>
+									<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+									02
+									</span>
+									<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+									03
+									</span>
+								</div>
+								<span class="absolute left-[0rem] bottom-[0rem] break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#B6B6B6]">
+								01
+								</span>
+								<span class="absolute left-[7.9rem] bottom-[0rem] break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#B6B6B6]">
+								01
+								</span>
+								<span class="absolute left-[15.6rem] bottom-[0rem] break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#B6B6B6]">
+								01
+								</span>
+								<span class="absolute left-[50%] bottom-[0rem] translate-x-[-50%] break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#B6B6B6]">
+								01
+								</span>
+								<span class="absolute right-[15.4rem] bottom-[0rem] break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								01
+								</span>
+							</div>
+							<div class="bg-[#DDDDDD] m-[0_0_0.2rem_0] w-[54.6rem] h-[0.1rem]">
+							</div>
+							<div class="m-[0_3.3rem_2.4rem_3.6rem] flex flex-row justify-between w-[47.6rem] box-sizing-border">
+								<span class="m-[0_0.6rem_0_0] w-[7.2rem] break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								04
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								05
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								06
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								07
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								08
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								09
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								10
+								</span>
+							</div>
+							<div class="rounded-[0.3rem] bg-[#6C5DD3] relative m-[0_0.8rem_2.9rem_0.8rem] flex flex-row self-start p-[0.1rem_0_0.1rem_0.3rem] w-[7.1rem] box-sizing-border">
+								<span class="m-[0_0.7rem_0_0] break-words font-['Roboto'] font-normal text-[0.8rem] leading-[1.538] text-[#FFFFFF]">
+								13:00
+								</span>
+								<span class="break-words font-['Roboto'] font-normal text-[0.8rem] leading-[1.538] text-[#FFFFFF]">
+								Đi học
+								</span>
+							</div>
+							<div class="bg-[#DDDDDD] m-[0_0_0.3rem_0] w-[54.6rem] h-[0.1rem]">
+							</div>
+							<div class="m-[0_3.3rem_2.4rem_3.6rem] flex flex-row justify-between w-[47.6rem] box-sizing-border">
+								<span class="m-[0_0.6rem_0_0] w-[7.2rem] break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								11
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								12
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								13
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								14
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								15
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								16
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								17
+								</span>
+							</div>
+							<div class="rounded-[0.3rem] bg-[#6C5DD3] relative m-[0_0.7rem_2.5rem_0.7rem] flex flex-row self-start p-[0.1rem_0.4rem_0.1rem_0.3rem] w-[fit-content] box-sizing-border">
+								<span class="m-[0_0.7rem_0_0] break-words font-['Roboto'] font-normal text-[0.8rem] leading-[1.538] text-[#FFFFFF]">
+								21:30
+								</span>
+								<span class="break-words font-['Roboto'] font-normal text-[0.8rem] leading-[1.538] text-[#FFFFFF]">
+								Họp nhóm
+								</span>
+							</div>
+							<div class="bg-[#DDDDDD] m-[0_0_0.3rem_0] w-[54.6rem] h-[0.1rem]">
+							</div>
+							<div class="m-[0_3.3rem_0.5rem_3.6rem] flex flex-row justify-between w-[47.6rem] box-sizing-border">
+								<span class="m-[0_0.6rem_0_0] w-[7.2rem] break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								18
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								19
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								20
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								21
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								22
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								23
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								24
+								</span>
+							</div>
+							<div class="rounded-[0.3rem] bg-[#6C5DD3] relative m-[0_0.9rem_4.4rem_0.9rem] flex flex-row self-start p-[0.1rem_0_0.1rem_0.3rem] w-[7.1rem] box-sizing-border">
+								<span class="m-[0_0.7rem_0_0] break-words font-['Roboto'] font-normal text-[0.8rem] leading-[1.538] text-[#FFFFFF]">
+								20:00
+								</span>
+								<span class="break-words font-['Roboto'] font-normal text-[0.8rem] leading-[1.538] text-[#FFFFFF]">
+								Retro
+								</span>
+							</div>
+							<div class="bg-[#DDDDDD] m-[0_0_0.4rem_0] w-[54.6rem] h-[0.1rem]">
+							</div>
+							<div class="m-[0_3.3rem_0.6rem_3.6rem] flex flex-row justify-between w-[47.6rem] box-sizing-border">
+								<span class="m-[0_0.6rem_0_0] w-[7.2rem] break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								25
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								26
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								27
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								28
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								29
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								30
+								</span>
+								<span class="break-words font-['Roboto'] font-bold text-[1rem] leading-[1.25] text-[#000000]">
+								31
+								</span>
+							</div>
+							<div class="rounded-[0.3rem] bg-[#6C5DD3] relative m-[0_0.3rem_0_0.3rem] flex flex-row self-end p-[0.1rem_0_0.1rem_0.3rem] w-[7.1rem] box-sizing-border">
+								<span class="m-[0_0.7rem_0_0] break-words font-['Roboto'] font-normal text-[0.8rem] leading-[1.538] text-[#FFFFFF]">
+								00:00
+								</span>
+								<span class="break-words font-['Roboto'] font-normal text-[0.8rem] leading-[1.538] text-[#FFFFFF]">
+								làm gì
+								</span>
+							</div>
+						</div>
+						<div class="bg-[#DDDDDD] absolute right-[7.6rem] bottom-[0rem] w-[0.1rem] h-[43.5rem]">
+						</div>
+						<div class="bg-[#DDDDDD] absolute right-[15.3rem] bottom-[0rem] w-[0.1rem] h-[43.5rem]">
+						</div>
+						<div class="bg-[#DDDDDD] absolute right-[23rem] bottom-[0rem] w-[0.1rem] h-[43.5rem]">
+						</div>
+						<div class="bg-[#DDDDDD] absolute left-[23.8rem] bottom-[0rem] w-[0.1rem] h-[43.5rem]">
+						</div>
+						<div class="bg-[#DDDDDD] absolute left-[16.1rem] bottom-[0rem] w-[0.1rem] h-[43.5rem]">
+						</div>
+						<div class="bg-[#DDDDDD] absolute left-[8.4rem] bottom-[0rem] w-[0.1rem] h-[43.5rem]">
+						</div>
+					</div>
+				</div>
+				<div class="m-[3.1rem_0_1.4rem_0] flex flex-col w-[16.8rem] box-sizing-border">
+					<div class="relative m-[0_0_0.9rem_0] flex p-[0.9rem_1.4rem_0rem_0rem] w-[16.8rem] box-sizing-border">
+						<img class="absolute left-[5rem] top-[4.1rem] w-[1.7rem] h-[1.6rem]" src="../assets/vectors/check_circle_126_x1.svg" />
+						<img class="absolute left-[5rem] top-[7.3rem] w-[1.7rem] h-[1.6rem]" src="../assets/vectors/check_circle_137_x1.svg" />
+						<img class="absolute left-[5rem] top-[10.5rem] w-[1.7rem] h-[1.6rem]" src="../assets/vectors/check_circle_141_x1.svg" />
+						<img class="absolute left-[5rem] top-[13.7rem] w-[1.7rem] h-[1.6rem]" src="../assets/vectors/check_circle_153_x1.svg" />
+						<div class="relative flex flex-col w-[15.4rem] h-[fit-content] box-sizing-border">
+							<div class="m-[0_4.3rem_1rem_0] flex flex-row self-center w-[fit-content] box-sizing-border">
+								<span class="m-[0_1rem_0_0] break-words font-['Roboto'] font-medium text-[1.2rem] text-[#000000]">
+								To Do
+								</span>
+								<div class="m-[0.1rem_0_0.1rem_0] inline-block break-words font-['Roboto'] font-normal text-[0.9rem] text-[var(--nd-text-color,#B6B6B6)]">
+								(05)
+								</div>
+							</div>
+							<div class="flex flex-row justify-between w-[15.4rem] box-sizing-border">
+								<div class="flex flex-row box-sizing-border">
+									<div class="bg-[#6C5DD3] m-[0_2.4rem_0_0] w-[0.3rem] h-[3.2rem]">
+									</div>
+									<div class="m-[1rem_0_1.1rem_0] inline-block break-words font-['Roboto'] font-normal text-[0.9rem] text-[var(--text-color,#000000)]">
+									01
+									</div>
+								</div>
+								<div class="m-[1rem_0_1.1rem_0] inline-block break-words font-['Roboto'] font-normal text-[0.9rem] text-[var(--text-color,#000000)]">
+								Create wireframe
+								</div>
+							</div>
+							<div class="flex flex-row justify-between self-start w-[12.9rem] box-sizing-border">
+								<div class="flex flex-row box-sizing-border">
+									<div class="bg-[#6C5DD3] m-[0_2.4rem_0_0] w-[0.3rem] h-[3.1rem]">
+									</div>
+									<div class="m-[1rem_0_1rem_0] inline-block break-words font-['Roboto'] font-normal text-[0.9rem] text-[var(--text-color,#000000)]">
+									02
+									</div>
+								</div>
+								<div class="m-[1rem_0_1rem_0] inline-block break-words font-['Roboto'] font-normal text-[0.9rem] text-[var(--text-color,#000000)]">
+								Test bug UI
+								</div>
+							</div>
+							<div class="m-[0_0.5rem_0rem_0] flex flex-row justify-between w-[14.9rem] box-sizing-border">
+								<div class="flex flex-row box-sizing-border">
+									<div class="bg-[#6C5DD3] m-[0_2.4rem_0_0] w-[0.3rem] h-[3.2rem]">
+									</div>
+									<div class="m-[1rem_0_1rem_0] inline-block break-words font-['Roboto'] font-normal text-[0.9rem] text-[var(--text-color,#000000)]">
+									03
+									</div>
+								</div>
+								<div class="m-[1rem_0_1rem_0] inline-block break-words font-['Roboto'] font-normal text-[0.9rem] text-[var(--text-color,#000000)]">
+								Design userflow
+								</div>
+							</div>
+							<div class="m-[0_0_0rem_0] flex flex-row justify-between self-start w-[13.1rem] box-sizing-border">
+								<div class="flex flex-row box-sizing-border">
+									<div class="bg-[#6C5DD3] m-[0_2.4rem_0_0] w-[0.3rem] h-[3.1rem]">
+									</div>
+									<div class="m-[1rem_0_1rem_0] inline-block break-words font-['Roboto'] font-normal text-[0.9rem] text-[var(--text-color,#000000)]">
+									04
+									</div>
+								</div>
+								<div class="m-[1rem_0_1rem_0] inline-block break-words font-['Roboto'] font-normal text-[0.9rem] text-[var(--text-color,#000000)]">
+								Write report
+								</div>
+							</div>
+							<div class="flex flex-row justify-between self-start w-[12.8rem] box-sizing-border">
+								<div class="bg-[#6C5DD3] w-[0.3rem] h-[3.1rem]">
+								</div>
+								<div class="m-[1.1rem_0_1rem_0] inline-block break-words font-['Roboto'] font-normal text-[0.9rem] text-[var(--nd-text-color,#B6B6B6)]">
+								+ Add New
+								</div>
+							</div>
+						</div>
+						<div class="rounded-[0.3rem] border-[0.1rem_solid_#EFEFEF] bg-[#FFFFFF] absolute left-[0rem] top-[0rem] right-[0rem] bottom-[0rem] flex flex-col p-[0.9rem_0.1rem_0rem_0rem] h-[100%] box-sizing-border">
+							<div class="m-[0_5.6rem_1rem_0] flex flex-row self-center w-[fit-content] box-sizing-border">
+								<span class="m-[0_1rem_0_0] break-words font-['Roboto'] font-medium text-[1.2rem] text-[#000000]">
+								To Do
+								</span>
+								<div class="m-[0.1rem_0_0.1rem_0] inline-block break-words font-['Roboto'] font-normal text-[0.9rem] text-[var(--nd-text-color,#B6B6B6)]">
+								(05)
+								</div>
+							</div>
+							<div class="flex flex-row self-start w-[15.1rem] box-sizing-border">
+								<div class="bg-[#6C5DD3] m-[0rem_0.1rem_0_0] w-[0.3rem] h-[3.2rem]">
+								</div>
+								<div class="m-[0_0_0rem_0] flex flex-col items-end w-[14.7rem] box-sizing-border">
+									<div class="bg-[#EFEFEF] m-[0_0_0.5rem_0rem] w-[14.7rem] h-[0.1rem]">
+									</div>
+									<div class="m-[0_0.1rem_0.6rem_0.1rem] flex flex-row justify-between w-[12.5rem] box-sizing-border">
+										<div class="m-[0.5rem_0.6rem_0.4rem_0] inline-block w-[8.7rem] break-words font-['Roboto'] font-normal text-[0.9rem] text-[var(--text-color,#000000)]">
+										Study
+										</div>
+										<div class="flex box-sizing-border">
+											<div class="rounded-[1rem] bg-[#5EAD56] flex p-[0.4rem_0.8rem_0.4rem_0.8rem] box-sizing-border">
+												<span class="break-words font-['Roboto'] font-normal text-[0.9rem] text-[#000000]">
+												Low
+												</span>
+											</div>
+										</div>
+									</div>
+									<div class="bg-[#EFEFEF] m-[0_0rem_0_0] w-[14.7rem] h-[0.1rem]">
+									</div>
+								</div>
+							</div>
+							<div class="flex flex-row self-start w-[15rem] box-sizing-border">
+								<div class="bg-[#6C5DD3] m-[0_0.1rem_0rem_0] w-[0.3rem] h-[3.1rem]">
+								</div>
+								<div class="m-[0.6rem_0_0_0] flex flex-col items-end w-[14.7rem] h-[fit-content] box-sizing-border">
+									<div class="m-[0_0_0.5rem_0] flex flex-row justify-between w-[12.7rem] box-sizing-border">
+										<div class="m-[0.5rem_0.6rem_0.4rem_0] inline-block w-[8.6rem] break-words font-['Roboto'] font-normal text-[0.9rem] text-[var(--text-color,#000000)]">
+										Test
+										</div>
+										<div class="flex box-sizing-border">
+											<div class="rounded-[1rem] bg-[#F14A5B] flex p-[0.4rem_0.8rem_0.4rem_0.8rem] box-sizing-border">
+												<span class="break-words font-['Roboto'] font-normal text-[0.9rem] text-[#000000]">
+												High
+												</span>
+											</div>
+										</div>
+									</div>
+									<div class="bg-[#EFEFEF] m-[0_0rem_0_0] w-[14.7rem] h-[0.1rem]">
+									</div>
+								</div>
+							</div>
+							<div class="m-[0_0_0rem_0] flex flex-row w-[16.7rem] box-sizing-border">
+								<div class="bg-[#6C5DD3] m-[0_0rem_0_0] w-[0.3rem] h-[3.2rem]">
+								</div>
+								<div class="m-[0.4rem_0_0rem_0] flex flex-col w-[16.4rem] h-[fit-content] box-sizing-border">
+									<div class="m-[0_0_0.8rem_0] flex flex-row justify-between self-end w-[14.3rem] box-sizing-border">
+										<div class="m-[0.7rem_0.6rem_0.1rem_0] inline-block w-[8.8rem] break-words font-['Roboto'] font-normal text-[0.9rem] text-[var(--text-color,#000000)]">
+										Friend meet
+										</div>
+										<div class="flex box-sizing-border">
+											<div class="rounded-[1rem] bg-[#FF9F38] flex p-[0.4rem_0.8rem_0.4rem_0.8rem] box-sizing-border">
+												<span class="break-words font-['Roboto'] font-normal text-[0.9rem] text-[#000000]">
+												Medium
+												</span>
+											</div>
+										</div>
+									</div>
+									<div class="bg-[#EFEFEF] self-start w-[14.7rem] h-[0.1rem]">
+									</div>
+								</div>
+							</div>
+							<div class="m-[0_0_0rem_0] flex flex-row self-start w-[15rem] box-sizing-border">
+								<div class="bg-[#6C5DD3] m-[0_0.1rem_0_0] w-[0.3rem] h-[3.1rem]">
+								</div>
+								<div class="m-[0.3rem_0_0rem_0] flex flex-col items-end w-[14.7rem] h-[fit-content] box-sizing-border">
+									<div class="m-[0_0.1rem_0.7rem_0.1rem] flex flex-row justify-between w-[12.5rem] box-sizing-border">
+										<div class="m-[0.8rem_0.6rem_0.1rem_0] inline-block w-[8.7rem] break-words font-['Roboto'] font-normal text-[0.9rem] text-[var(--text-color,#000000)]">
+										Read book
+										</div>
+										<div class="flex box-sizing-border">
+											<div class="rounded-[1rem] bg-[#5EAD56] flex p-[0.4rem_0.8rem_0.4rem_0.8rem] box-sizing-border">
+												<span class="break-words font-['Roboto'] font-normal text-[0.9rem] text-[#000000]">
+												Low
+												</span>
+											</div>
+										</div>
+									</div>
+									<div class="bg-[#EFEFEF] w-[14.7rem] h-[0.1rem]">
+									</div>
+								</div>
+							</div>
+							<div class="flex flex-row self-start w-[fit-content] box-sizing-border">
+								<div class="bg-[#6C5DD3] m-[0_2.1rem_0_0] w-[0.3rem] h-[3.1rem]">
+								</div>
+								<div class="m-[1.1rem_0_0.9rem_0] inline-block break-words font-['Roboto'] font-normal text-[0.9rem] text-[var(--nd-text-color,#B6B6B6)]">
+								+ Add New
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="shadow-[0.3rem_0.3rem_0.6rem_0rem_rgba(0,0,0,0.1)] rounded-[0.5rem] bg-[#FFFFFF] relative flex flex-col items-center p-[2.3rem_1.2rem_7rem_1.2rem] w-[fit-content] box-sizing-border">
+						<div class="m-[0_0_2.1rem_0] flex flex-row self-end w-[fit-content] box-sizing-border">
+							<span class="m-[0_0.5rem_0_0] break-words font-['Roboto'] font-medium text-[1.3rem] leading-[1] text-[#858585]">
+							All
+							</span>
+							<span class="m-[0_0.5rem_0_0] break-words font-['Roboto'] font-medium text-[1.3rem] underline leading-[1] text-[#6C5DD3]">
+							Company
+							</span>
+							<span class="break-words font-['Roboto'] font-medium text-[1.3rem] leading-[1] text-[#858585]">
+							University
+							</span>
+						</div>
+						<div class="m-[0_0rem_1.5rem_0] flex flex-row w-[fit-content] box-sizing-border">
+							<div class="rounded-[0.3rem] border-[0.1rem_solid_#E9AD2E] bg-[#FCE7BA] m-[0_0.8rem_0_0] w-[1.3rem] h-[1.3rem]">
+							</div>
+							<span class="break-words font-['Roboto'] font-medium text-[0.9rem] leading-[1.429] text-[#000000]">
+							Nhập môn Trí tuệ nhân tạo
+							</span>
+						</div>
+						<div class="m-[0_7.7rem_1.5rem_0] flex flex-row w-[fit-content] box-sizing-border">
+							<div class="rounded-[0.3rem] border-[0.1rem_solid_#E4769D] bg-[#F5C6D7] m-[0_0.8rem_0_0] w-[1.3rem] h-[1.3rem]">
+							</div>
+							<span class="break-words font-['Roboto'] font-medium text-[0.9rem] leading-[1.429] text-[#000000]">
+							UI - UX
+							</span>
+						</div>
+						<div class="m-[0_2.8rem_1.5rem_0] flex flex-row w-[fit-content] box-sizing-border">
+							<div class="rounded-[0.3rem] border-[0.1rem_solid_#6C5DD3] bg-[#DDCCFF] relative m-[0_0.8rem_0_0] flex p-[0.4rem_0.3rem_0.3rem_0.3rem] w-[1.3rem] h-[1.3rem] box-sizing-border">
+								<img class="rounded-[0.1rem] w-[0.8rem] h-[0.6rem]" src="../assets/vectors/vector_6354_x1.svg" />
+							</div>
+							<span class="break-words font-['Roboto'] font-medium text-[0.9rem] leading-[1.429] text-[#000000]">
+							Kỹ thuật phần mềm
+							</span>
+						</div>
+						<div class="m-[0_5.2rem_1.5rem_0] flex flex-row w-[fit-content] box-sizing-border">
+							<div class="rounded-[0.3rem] border-[0.1rem_solid_#38B5E7] bg-[#BEE1E2] m-[0_0.8rem_0_0] w-[1.3rem] h-[1.3rem]">
+							</div>
+							<span class="break-words font-['Roboto'] font-medium text-[0.9rem] leading-[1.429] text-[#000000]">
+							Native Upsell
+							</span>
+						</div>
+						<div class="m-[0_5.7rem_1.5rem_0] flex flex-row w-[fit-content] box-sizing-border">
+							<div class="rounded-[0.3rem] border-[0.1rem_solid_#65AB35] bg-[#DAF0CB] m-[0_0.8rem_0_0] w-[1.3rem] h-[1.3rem]">
+							</div>
+							<span class="break-words font-['Roboto'] font-medium text-[0.9rem] leading-[1.429] text-[#000000]">
+							Cart Drawer
+							</span>
+						</div>
+						<div class="m-[0_1.9rem_1.5rem_0] flex flex-row w-[fit-content] box-sizing-border">
+							<div class="rounded-[0.3rem] border-[0.1rem_solid_#B03131] bg-[#E3B8B8] m-[0_0.8rem_0_0] w-[1.3rem] h-[1.3rem]">
+							</div>
+							<span class="break-words font-['Roboto'] font-medium text-[0.9rem] leading-[1.429] text-[#000000]">
+							Native Recommender
+							</span>
+						</div>
+						<div class="m-[0_5.9rem_0_0] flex flex-row w-[fit-content] box-sizing-border">
+							<div class="rounded-[0.6rem] bg-[#B6B6B6] relative m-[0_0.5rem_0_0] flex p-[0.4rem_0.4rem_0.4rem_0.4rem] w-[1.3rem] h-[1.3rem] box-sizing-border">
+								<div class="flex w-[0.5rem] h-[0.5rem] box-sizing-border">
+									<img class="w-[0.5rem] h-[0.5rem]" src="../assets/vectors/vector_256_x1.svg" />
+								</div>
+							</div>
+							<span class="break-words font-['Inter'] font-medium text-[0.8rem] leading-[1.667] text-[#B6B6B6]">
+							Create task...
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="border-b-[0.1rem_solid_#EADEFF] bg-[#FFFFFF] absolute left-[0rem] top-[0rem] right-[0rem] flex flex-row justify-between p-[0.6rem_1.7rem_0.6rem_2.2rem] box-sizing-border">
+				<div class="m-[0.4rem_0_0.4rem_0] flex flex-row box-sizing-border">
+					<img class="m-[0_0.6rem_0_0] w-[2.6rem] h-[2.6rem]" src="../assets/vectors/group_13920_x1.svg" />
+					<div class="m-[0.3rem_0_0.2rem_0] inline-block break-words font-['Roboto'] font-semibold text-[1.9rem] tracking-[0.1rem] text-[var(--text-color,#000000)]">
+					KPICall
+					</div>
+				</div>
+				<div class="relative p-[1.1rem_1.9rem_1.1rem_1.9rem] w-[33.3rem] box-sizing-border">
+					<div class="relative flex box-sizing-border">
+						<span class="break-words font-['Roboto'] font-normal text-[1rem] text-[var(--nd-text-color,#B6B6B6)]">
+						Search...
+						</span>
+					</div>
+					<div class="rounded-[0.6rem] bg-[#F7F8F9] absolute left-[50%] bottom-[0rem] translate-x-[-50%] flex flex-row justify-between p-[1.1rem_1.1rem_1.1rem_1.3rem] w-[33.3rem] box-sizing-border">
+						<div class="m-[0.1rem_0.6rem_0_0] inline-block w-[29.1rem] break-words font-['Roboto'] font-normal text-[1rem] text-[var(--nd-text-color,#B6B6B6)]">
+						Search...
+						</div>
+						<div class="m-[0_0_0.1rem_0] flex w-[1.2rem] h-[1.2rem] box-sizing-border">
+							<img class="w-[1.2rem] h-[1.2rem]" src="../assets/vectors/union_8_x1.svg" />
+						</div>
+					</div>
+				</div>
+				<div class="m-[0.2rem_0_0.2rem_0] flex flex-row w-[19.1rem] h-[fit-content] box-sizing-border">
+					<img class="m-[0.6rem_2.4rem_0.5rem_0] w-[1.9rem] h-[1.9rem]" src="../assets/vectors/noti_icon_12_x1.svg" />
+					<div class="rounded-[1.5rem] m-[0_0.6rem_0_0] flex w-[3rem] h-[3rem] box-sizing-border">
+						<div class="rounded-[1.5rem] bg-[url('../assets/images/portrait_smiling_businessman_dressed_suit_2.jpeg')] w-[3rem] h-[3rem]">
+						</div>
+					</div>
+					<div class="rounded-[0.5rem] m-[0.2rem_0_0.1rem_0] flex w-[11.3rem] h-[fit-content] box-sizing-border">
+						<div class="rounded-[0.5rem] border-[0.1rem_solid_#6C5DD3] bg-[var(--trng-1,#FFFFFF)] flex flex-row justify-between p-[0.8rem_0.5rem_0.8rem_0.7rem] w-[11.3rem] h-[fit-content] box-sizing-border">
+							<span class="m-[0_0.5rem_0_0] w-[8.7rem] break-words font-['Roboto'] font-medium text-[1rem] tracking-[0rem] leading-[1] text-[#6C5DD3]">
+							DUY KHANH
+							</span>
+							<img class="m-[0.4rem_0_0.3rem_0] w-[0.6rem] h-[0.3rem]" src="../assets/vectors/vector_263_x1.svg" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
